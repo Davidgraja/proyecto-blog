@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", "monospace";
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header{
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows:1fr 1fr ;
+}
+
+header .header-icons-container{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color:#47cfad; 
+
+}
+header .header-icons-container .icons{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+
+}
+
+header .icons span{
+    color: white;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+nav .nav-logo-container{
+    margin-left: 50px;
+}
+
+nav .nav-logo-container img{
+    width: 220px;
+    margin-top: 10px;
+}
+nav .profile-link{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+nav .profile-link a{
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+
+main{
+    width:100%;
+    min-width: 320px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-image: url("https://previews.dropbox.com/p/thumb/ABhSs_4NSACWFAJmkdOqu8girIxK0R-1qK0jxJyomo8Y7I_Eb6KYT8pdk6-WEGFmqWhsH-wGPAqJM4fdEuaFjfYtehKztKzifgwjR3k6lrlRUUWRGIwekI3Iqi7Rq2psbHMm2fjySYFxtQUNTNZ5iFguiT0em6_3e6CElF9SkhEuicSJkN4zp-vKpk84Ge4FjcSgNlDs3my0MLWp2NmTwMSoUaKwjDLpVrdu2TDZ1UOwJh4_VipkJtADNQJvmuMGGcwo9o82w7r-Vo4p2nLwG4THzzOWrFgkJkOKs3kFwiZJsaGp_gHyjeAVdpTWoesggZ_tnI-PywVuaTRCLbJEZnmYCOqzuUWODnWMjPNJ4wi4pa4zFoP0hbmn7fykj2wuujE/p.png"); */
+    position: relative;
+}
+main p{
+    width:450px;
+    font-size: 1.6rem;
+    position: absolute;
+    color: white;
+    top: 50px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-family:"Roboto mono","monospace" ;
+}
+main  img{
+    width: 100%;
+    object-fit: cover;
+}
+
+main button{
+    position: absolute;
+    top: 450px;
+    padding: 8px;
+    background-color: #47cfad;
+    border: 1px solid white;
+    font-weight: bold;
+}
+main button a:active{
+    border-bottom:  1px solid black;
+    
+}
+main button:hover{
+    cursor: pointer;
+}

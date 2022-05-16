@@ -1,0 +1,13 @@
+*.woff
+*.ttf
+*.eot
+*.svg
+*flaticon.html:Zone.Identifier
+*Flaticon.ttf:Zone.Identifier
+*Flaticon.svg:Zone.Identifier
+*Flaticon.eot:Zone.Identifier
+*Flaticon.woff:Zone.Identifier
+*flaticon.css:Zone.Identifier
+*_flaticon.scss:Zone.Identifier
+_flaticon.scss
+flaticon.html
